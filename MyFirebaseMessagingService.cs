@@ -26,7 +26,7 @@ namespace AndroidApp2
 
 		public override void OnNewToken(string p0)
 		{
-            System.Diagnostics.Debug.WriteLine(DateTime.UtcNow.ToString("OnNewToken");
+            System.Diagnostics.Debug.WriteLine("OnNewToken");
 
             base.OnNewToken(p0);
 		}
